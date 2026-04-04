@@ -1,0 +1,5 @@
+100k/
+venv/
+*.zip
+__pycache__/
+*.pt
