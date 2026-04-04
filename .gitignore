@@ -2,4 +2,4 @@
 venv/
 *.zip
 __pycache__/
-*.pt
+*.ptDepth-Anything-V2/
