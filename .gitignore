@@ -3,3 +3,4 @@ venv/
 *.zip
 __pycache__/
 *.ptDepth-Anything-V2/
+output/
