@@ -11,6 +11,9 @@ import json
 import numpy as np
 import time
 
+from kafka import KafkaProducer
+import json
+
 # 경로 설정
 IMAGE_DIR = "/home/hyeonjeong/autonomous_project/100k/train"
 OUTPUT_DIR = "/home/hyeonjeong/autonomous_project/output"
@@ -40,6 +43,12 @@ slm_model = AutoModelForCausalLM.from_pretrained(
     model_id,
     dtype=torch.float16,
     device_map="auto"
+)
+
+# Kafka Producer 설정
+producer = KafkaProducer(
+    bootstrap_servers='localhost:9092',
+    value_serializer=lambda v: json.dumps(v, ensure_ascii=False).encode('utf-8')
 )
 
 def get_spatial_info(bbox, depth_map, img_width, img_height):
@@ -171,6 +180,21 @@ for img_file in image_files:
     }
     results_list.append(result)
 
+   # Kafka로 결과 전송
+    try:
+        producer.send('autonomous-result', value={
+            "image": img_file,
+            "analysis": analysis,
+            "yoloTime": round(yolo_time, 3),
+            "slmTime": round(slm_time, 3),
+            "totalTime": round(yolo_time + slm_time, 3),
+            "detectionCount": len(detections)
+        })
+        producer.flush()
+        print(f"Kafka 전송 완료: {img_file}")
+    except Exception as e:
+        print(f"Kafka 전송 실패 (계속 진행): {e}")
+        
     print(f"\n{'='*50}")
     print(f"이미지: {img_file}")
     print(f"탐지 객체 수: {len(detections)}개")
