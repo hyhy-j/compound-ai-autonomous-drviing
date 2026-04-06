@@ -14,8 +14,6 @@ import time
 from kafka import KafkaProducer
 import json
 
-from PIL import Image, ImageDraw, ImageFont
-
 # 경로 설정
 IMAGE_DIR = "/home/hyeonjeong/autonomous_project/100k/train"
 OUTPUT_DIR = "/home/hyeonjeong/autonomous_project/output"
@@ -138,56 +136,6 @@ def analyze_scene(detections):
 
     return clean_response, slm_time
 
-def save_visualization(img, detections, analysis, img_file, yolo_results):
-    img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    pil_img = Image.fromarray(img_rgb)
-    draw = ImageDraw.Draw(pil_img)
-
-    # 폰트 로드
-    try:
-        font = ImageFont.truetype("/home/hyeonjeong/NanumGothic.ttf", 16)
-        font_small = ImageFont.truetype("/home/hyeonjeong/NanumGothic.ttf", 13)
-    except:
-        font = ImageFont.load_default()
-        font_small = ImageFont.load_default()
-
-    # 바운딩 박스 그리기
-    for result in yolo_results:
-        for box in result.boxes:
-            x1, y1, x2, y2 = map(int, box.xyxy[0].tolist())
-            cls = yolo_model.names[int(box.cls)]
-            conf = round(float(box.conf), 2)
-
-            color = (0, 255, 0)
-            if cls == 'person':
-                color = (255, 0, 0)
-            elif cls in ['car', 'truck', 'bus']:
-                color = (0, 0, 255)
-
-            draw.rectangle([x1, y1, x2, y2], outline=color, width=2)
-            draw.text((x1, y1 - 18), f"{cls} {conf}", fill=color, font=font_small)
-
-    w, h = pil_img.size
-
-    # 텍스트 배경
-    text_bg = Image.new('RGB', (w, 120), color=(0, 0, 0))
-    text_draw = ImageDraw.Draw(text_bg)
-
-    sentences = analysis.split('. ')
-    y_pos = 10
-    for sent in sentences[:3]:
-        if sent.strip():
-            text_draw.text((10, y_pos), sent.strip(), fill=(255, 255, 255), font=font)
-            y_pos += 35
-
-    combined = Image.new('RGB', (w, h + 120))
-    combined.paste(pil_img, (0, 0))
-    combined.paste(text_bg, (0, h))
-
-    output_path = os.path.join(OUTPUT_DIR, f"viz_{img_file}")
-    combined.save(output_path)
-    print(f"시각화 저장: viz_{img_file}")
-
 # GPU 워밍업
 print("GPU 워밍업 중...")
 dummy_img = cv2.imread(os.path.join(IMAGE_DIR, os.listdir(IMAGE_DIR)[0]))
@@ -238,9 +186,6 @@ for img_file in image_files:
         "total_time": round(yolo_time + slm_time, 3)
     }
     results_list.append(result)
-
-    # 시각화 저장
-    save_visualization(img, detections, analysis, img_file, yolo_results)
 
    # Kafka로 결과 전송
     try:
