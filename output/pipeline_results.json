@@ -1,10 +1,4166 @@
 [
   {
-    "image": "61fe889c-c60a8d85.jpg",
+    "image": "0000f77c-6257be58.jpg",
     "detections": [
       {
         "class": "car",
+        "confidence": 0.91,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.79,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.77,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.65,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "direction": "중앙",
+        "distance": "근거리"
+      }
+    ],
+    "analysis": "전방, 중간 및 후방에서 차량이 감지되었습니다. 또한, 우측에는 두 번째로 높은 신뢰도를 가진 것은 신호등입니다. 차량과의 거리를 유지하면서 주의하십시오.",
+    "yolo_time": 0.01,
+    "slm_time": 3.676,
+    "total_time": 3.686
+  },
+  {
+    "image": "0000f77c-62c2a288.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.46,
+        "direction": "중앙",
+        "distance": "근거리"
+      }
+    ],
+    "analysis": "전방에는 아무런 객체가 없습니다. 현재 속도를 유지하고, 주변 환경을 철저히 관찰하세요. 이동 중에는 차선을 지키고, 적절한 거리에서 주행하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.322,
+    "total_time": 3.331
+  },
+  {
+    "image": "0000f77c-cb820c98.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.76,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.62,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.51,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.45,
+        "direction": "중앙",
+        "distance": "근거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.44,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.4,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.27,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 그리고 중앙에서 모두 같은 차량이 감지되었습니다. 어떤 차량인지 정확히 파악해야 합니다. 차량의 종류와 위치 정보를 바탕으로 적절한 조치를 취해주세요.",
+    "yolo_time": 0.008,
+    "slm_time": 3.383,
+    "total_time": 3.392
+  },
+  {
+    "image": "0001542f-5ce3cf52.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.42,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.35,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.28,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "이 상황에서 어떤 조언을 드릴 수 있을까요?   답변:  우선, 주변 환경에 대한 신중한 감각이 필요합니다. 특히, 중앙에서 두 번째로 가까운 차량의 신뢰도가 낮은 것을 고려해야 합니다. 따라서, 주행 속도를 최소화하고, 차량과의 간격을 확보하는 것이 중요합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.366,
+    "total_time": 3.374
+  },
+  {
+    "image": "0001542f-7c670be8.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방에서 차량과 교차로의 신호등이 감지되었습니다. 차량은 신호를 지키고, 교차로는 신호를 지켜야 합니다. 차량과 교차로 모두의 신호를 확인하고, 차량이 신호를 지키고 있으면 교차로에서도 신호를 지키세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.382,
+    "total_time": 3.391
+  },
+  {
+    "image": "0001542f-ec815219.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방에는 아무런 객체가 감지되지 않았습니다. 현재 속도를 유지하거나 조금 더 느려질 수 있습니다. 주변 환경을 철저히 살펴보면서 조심스럽게 주행하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.373,
+    "total_time": 3.382
+  },
+  {
+    "image": "0004974f-05e1c285.jpg",
+    "detections": [],
+    "analysis": "탐지된 객체가 없습니다. 정상 주행하세요.",
+    "yolo_time": 0.008,
+    "slm_time": 0.0,
+    "total_time": 0.008
+  },
+  {
+    "image": "00054602-3bf57337.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.65,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.31,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "- 우측에서 가장 높은 신뢰도는 차량신뢰도: 0. 89입니다. - 우측에서 두 번째로 높은 신뢰도는 차량신뢰도: 0.",
+    "yolo_time": 0.009,
+    "slm_time": 3.38,
+    "total_time": 3.389
+  },
+  {
+    "image": "00067cfb-5443fe39.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.74,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.57,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.42,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.39,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 차량이 감지되었습니다. 또한, 중앙에서는 두 차량이 동시에 감지되었습니다. 주변 환경을 철저히 살펴보며, 차량 간의 거리와 차량의 속도를 조절하여 안전한 운행을 유지하세요.",
+    "yolo_time": 0.008,
+    "slm_time": 3.372,
+    "total_time": 3.38
+  },
+  {
+    "image": "00067cfb-5adfaaa7.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.8,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.79,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.68,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.36,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 및 후방에서 차량이 감지되었습니다. 주변 환경을 철저히 관찰하며, 차량과의 거리를 유지하면서 주행하세요. 특히 우측에서 감지된 두 차량은 주의해야 합니다.",
+    "yolo_time": 0.008,
+    "slm_time": 3.377,
+    "total_time": 3.385
+  },
+  {
+    "image": "00067cfb-caba8a02.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.54,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.43,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.39,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "우측",
+        "distance": "근거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.29,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 차량과 교차로 신호등이 감지되었습니다. 차량과의 거리를 유지하면서 주의하십시오. 교차로에서 신호등 상태를 확인하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.37,
+    "total_time": 3.379
+  },
+  {
+    "image": "00067cfb-e535423e.jpg",
+    "detections": [
+      {
+        "class": "truck",
+        "confidence": 0.84,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.82,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.67,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.58,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.57,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.4,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.33,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.29,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.27,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "bus",
+        "confidence": 0.27,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.25,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 트럭, 사람, 차량, 버스가 감지되었습니다. 트럭과 사람의 충돌 위험성이 높으므로 즉시 감속하세요. 우측 차량과 버스와의 거리를 유지하며 주의하여 주행하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.39,
+    "total_time": 3.399
+  },
+  {
+    "image": "00067cfb-f1b91e3c.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.74,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.66,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.63,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.6,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.57,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.53,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.52,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "어떤 종류의 차량이 가장 많이 감지되었으며, 이는 어떻게 영향을 미칠까요?   답변:  우측 원거리에서 감지된 차량은 가장 많은 수가 4대이며, 중앙 원거리에서는 3대, 좌측 원거리에서는 각각 4대나 3대가 감지되었습니다. 이러한 정보는 운전자에게 주요한 경로 및 교통 상황을 이해하는데 도움이 될 것입니다. 특히, 좌측 원거리에서 감지되는 차량의 수가 많아서 주의해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.379,
+    "total_time": 3.387
+  },
+  {
+    "image": "0008a165-c48f4b3e.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.46,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.43,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.36,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "tv",
+        "confidence": 0.3,
+        "direction": "우측",
+        "distance": "근거리"
+      },
+      {
+        "class": "fire hydrant",
+        "confidence": 0.3,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 차량이 감지되었습니다. 전방 차량과 좌측 차량의 신뢰도가 높습니다. 주변 환경을 철저히 살펴보며, 특히 전방 차량과의 거리를 유지하면서 주의하십시오.",
+    "yolo_time": 0.008,
+    "slm_time": 3.37,
+    "total_time": 3.378
+  },
+  {
+    "image": "00091078-59817bb0.jpg",
+    "detections": [
+      {
+        "class": "bus",
+        "confidence": 0.93,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.82,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.78,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
         "confidence": 0.7,
+        "direction": "중앙",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.57,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.5,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.38,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방에서 버스, 두辆车, 그리고 교통 Crossing가 감지되었습니다. 이는 매우 위험한 상황입니다. 우선 교통 Crossing 상태를 확인하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.377,
+    "total_time": 3.386
+  },
+  {
+    "image": "00091078-7cff8ea6.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.91,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.9,
+        "direction": "중앙",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.7,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.5,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.44,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.27,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 그리고 중앙에서 차량이 감지되었습니다. 또한, 우측에서는 차량이 감지되었으며, 중앙에는 교차로의 신호등이 감지되었습니다. 차량들이 서로 겹치거나 교차로의 신호등 상태를 확인해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.385,
+    "total_time": 3.394
+  },
+  {
+    "image": "00091078-84635cf2.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.9,
+        "direction": "중앙",
+        "distance": "중거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.79,
+        "direction": "좌측",
+        "distance": "중거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.73,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.59,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.4,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.36,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.35,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.32,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.32,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.31,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.3,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.28,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.28,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 중앙 차량, 좌측 트럭, 우측 보행자들이 감지되었습니다. 주변 환경에서의 보행자를 고려하여 주의해야 합니다. 중앙 차량과의 거리 유지 및 트럭과의 충돌 위험을 최소화하기 위해 주행 속도를 조절하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.392,
+    "total_time": 3.401
+  },
+  {
+    "image": "00091078-875c1f73.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.92,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.9,
+        "direction": "중앙",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.78,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.69,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.31,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 그리고 중앙에서 모두 차량이 감지되었습니다. 이는 교통 상황이 매우 불안정한 것으로 판단됩니다. 차량 간의 거리가 너무 close로 인해 충돌 위험성이 높습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.392,
+    "total_time": 3.401
+  },
+  {
+    "image": "00091078-c1d32eea.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.84,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.82,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.69,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.49,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.44,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.32,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.32,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 차량, 보행자, 트럭, 그리고 주변에서 발견한 차량들이 감지되었습니다. 주행 중인 차량들과의 거리를 유지하면서 주의 깊게 주행하세요. 보행자를 고려해 주행 속도를 조절하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.393,
+    "total_time": 3.402
+  },
+  {
+    "image": "00091078-cedbfea7.jpg",
+    "detections": [
+      {
+        "class": "bus",
+        "confidence": 0.93,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.92,
+        "direction": "좌측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.44,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.38,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.36,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방에서 가장 높은 신뢰도를 가진 객체는 bus입니다. 이 bus와의 거리가 최소로 유지되어야 합니다. 또한, 우측에서 차량과 트럭이 감지되었습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.403,
+    "total_time": 3.412
+  },
+  {
+    "image": "00091078-f32de4d2.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.85,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.72,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.38,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 외곽에서 차량이 감지되었습니다. 주변 환경을 철저히 살펴보며, 특히 우측과 외곽에서의 차량이 높은 신뢰도로 인해 주의해야 합니다. 이동 중에는 주변 차량과의 거리를 유지하면서 주의하십시오.",
+    "yolo_time": 0.009,
+    "slm_time": 3.387,
+    "total_time": 3.396
+  },
+  {
+    "image": "000d35d3-41990aa4.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.61,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.6,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.56,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "bus",
+        "confidence": 0.54,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.42,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.34,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.27,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.25,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 및 후방에서 차량, 트럭, 보행자, 버스가 감지되었습니다. 특히 우측에서 보행자와 트럭이 가장 높은 신뢰도로 감지되었습니다. 전방 차량과 트럭, 보행자를 주의하되, 후방에서는 차량과 버스의 거리 유지와 주의해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.391,
+    "total_time": 3.4
+  },
+  {
+    "image": "000d4f89-3bcbe37a.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.56,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.43,
+        "direction": "중앙",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.4,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.25,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "어떤 정보를 얻으셨나요? 어떻게 해야 할까요? 이 질문에 대한 답변은 \"안전 거리 유지, 차량 간 거리 조절\" 등과 같은 명확한 지침을 포함해야 합니다. 또한, 다음의 상황에서 AI는 어떻게 행동해야 할지를 설명해주세요. 탐지된 객체: - 중앙 원거리: bus 신뢰도: 0.",
+    "yolo_time": 0.009,
+    "slm_time": 3.391,
+    "total_time": 3.4
+  },
+  {
+    "image": "000e0252-8523a4a9.jpg",
+    "detections": [
+      {
+        "class": "traffic light",
+        "confidence": 0.77,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.71,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.62,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.46,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 그리고 중앙에서 모두 교통 signal이 감지되었습니다. 각각의 신호 상태를 확인하고, 그에 따라 운전자의 행동을 조절해야 합니다. 물론이거나 아니거나, 이 정보는 자동차의 운전자에게 중요한 정보를 제공합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.387,
+    "total_time": 3.396
+  },
+  {
+    "image": "000f157f-30b30f5e.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.67,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "bus",
+        "confidence": 0.36,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "- 우측에서 두 차량이 동시에 감지되었습니다. - 중앙에는 버스가 감지되었습니다. - 좌측에서는 한 차량이 감지되었습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.389,
+    "total_time": 3.398
+  },
+  {
+    "image": "000f157f-37797ff9.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.57,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.33,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "어떤 정보를 제공해야 할까요? 이 정보는 무엇을 의미하는 것일까요?  답변:  우측에서 세 개의 차량이 감지되었습니다. 각 차량의 신뢰도는 다음과 같습니다:  - 첫 번째 차량: 0. 57 - 두 번째 차량: 0.",
+    "yolo_time": 0.009,
+    "slm_time": 3.392,
+    "total_time": 3.401
+  },
+  {
+    "image": "000f157f-dab3a407.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.86,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.78,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.54,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.4,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.39,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.3,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.27,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "bus",
+        "confidence": 0.26,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.25,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.25,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 및 후방에서 차량, 사람, 버스, 트럭이 감지되었습니다. 주변 환경을 철저히 관찰하고, 특히 우측에서 감지된 차량과 사람의 경우 주의해야 합니다. 주행 속도를 최소화하여 안전한 거리 유지하려고 노력하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.388,
+    "total_time": 3.396
+  },
+  {
+    "image": "000f8d37-d4c09a0f.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "중앙",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.69,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.68,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.65,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.56,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.56,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.51,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.4,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.39,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.38,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.38,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.31,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.27,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.27,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.27,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.25,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 그리고 중앙에서 차량이 감지되었습니다. 또한, 좌측에는 사람과 신호등이 감지되었습니다. 주행 중인 차량과의 거리가 적은 것으로 보아, 차량과의 충돌 위험이 있습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.393,
+    "total_time": 3.402
+  },
+  {
+    "image": "0010bf16-9ee17cd9.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.84,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.8,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.74,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.38,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.38,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "어떤 종류의 차량이 감지되었는지, 각 차량과의 거리, 그리고 사람들의 위치에 대한 정보를 기반으로 최선의 행동 계획을 제안해주세요. 또한, 이 정보를 바탕으로 가능한 충돌 위험을 예측하고 그에 따른 조치를 취하는 것이 중요합니다. 답변은 다음과 같이 이루어져야 합니다:  1.",
+    "yolo_time": 0.009,
+    "slm_time": 3.401,
+    "total_time": 3.41
+  },
+  {
+    "image": "0010bf16-a457685b.jpg",
+    "detections": [
+      {
+        "class": "bus",
+        "confidence": 0.92,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.83,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.46,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "bus",
+        "confidence": 0.27,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.26,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방에서 bus, car, traffic light이 감지되었습니다. 우선 주변 환경을 철저히 살펴보세요. 특히 교통 상황과 주차선을 확인하십시오.",
+    "yolo_time": 0.009,
+    "slm_time": 3.221,
+    "total_time": 3.23
+  },
+  {
+    "image": "00131ea7-624f538d.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.86,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.84,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.65,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.53,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.44,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.36,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.32,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 및 후방에서 차량이 감지되었으며, 중앙에서는 사람과 차량이 동시에 감지되었습니다. 또한, 우측에는 사람이 감지되었습니다. 주변 환경을 철저히 살펴보고, 가능한 충돌 위험을 고려하여 조심스럽게 주행하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.415,
+    "total_time": 3.424
+  },
+  {
+    "image": "00134776-9123d227.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.74,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.59,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 왼쪽, 오른쪽에서 차량이 감지되었습니다. 차량들이 서로 가까운 위치에 있습니다. 주변 환경을 주의 깊게 살펴보며, 차량 간의 거리를 유지하면서 주행하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.421,
+    "total_time": 3.43
+  },
+  {
+    "image": "001bad4e-2fa8f3b6.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.88,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.85,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.79,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.74,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.73,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.52,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.48,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "bicycle",
+        "confidence": 0.4,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.38,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.27,
+        "direction": "우측",
+        "distance": "중거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 차량, 사람, 트럭, 자전거 등 다양한 탐지 결과가 있습니다. 주변 환경은 매우 복잡합니다. 우선적으로 차량과 사람을 주의해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.466,
+    "total_time": 3.475
+  },
+  {
+    "image": "001c5339-08faca55.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.4,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.3,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "답변:   분석결과: - 좌측 원거리: 두 차량이 감지되었습니다. 이는 주로 교차路口에서 발생하는 현상이며, 주행 중에는 주의해야 합니다. - 중央 원거리: 한 차량이 감지되었습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.438,
+    "total_time": 3.447
+  },
+  {
+    "image": "001c5339-13a07470.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.8,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.78,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.76,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.59,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.56,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.33,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 모두 같은 차량이 감지되었습니다. 이는 주로 주차된 차량이나 교통체증을 나타냅니다. 주행 중에는 주변 환경을 철저히 관찰하되, 차량 간의 거리가 적절하다면 속도를 조정해주시길 바랍니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.448,
+    "total_time": 3.457
+  },
+  {
+    "image": "001c5339-9a6cdd3e.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.79,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.25,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.25,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "- 좌측 원거리: 차량이 감지되었습니다. 이는 주로 도로 왼쪽에서 오는 차량 또는 교통사고 예방을 위해 설치된 방향 제어 장치로, 신뢰도가 높습니다. - 중央 원거리: 신호등과 차량이 동시에 감지되었습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.431,
+    "total_time": 3.439
+  },
+  {
+    "image": "00202076-7a95b4e3.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 및 좌측에서 두 차량이 동시에 감지되었습니다. 이는 주로 교차로나 도로변에서 발생하는 상황입니다. 차량 간의 거리와 차량의 속도를 고려하여 주의해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.425,
+    "total_time": 3.433
+  },
+  {
+    "image": "00202076-9eaa8e42.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.91,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.9,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.9,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.8,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.32,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.31,
+        "direction": "중앙",
+        "distance": "근거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.28,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 차량이 감지되었습니다. 주변 환경을 철저히 살펴보며 차량과의 거리를 유지하세요. 특히 좌측에서의 차량은 매우 높은 신뢰도로 인해 주의해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.418,
+    "total_time": 3.427
+  },
+  {
+    "image": "00207869-046fa443.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.84,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.73,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.64,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.56,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "bus",
+        "confidence": 0.46,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.43,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.42,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.33,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.28,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 그리고 중앙에서 모두 차량이 감지되었습니다. 특히 중앙에서 두 번째로 많은 차량이 감지되었으며, 이는 주행 중인 모든 차량의 약 60%를 차지합니다. 또한, 좌측에서는 버스와 트럭이 감지되었습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.434,
+    "total_time": 3.443
+  },
+  {
+    "image": "00207869-902288d1.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.82,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.57,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.56,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.52,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.47,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.46,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.36,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 후방 및 곳곳에서 차량이 감지되었습니다. 또한, 중앙에는 두 번째로 높은 신뢰도를 가진 것은 신호등입니다. 차량과 차량 간의 거리가 적절하지 않으며, 특히 중앙에는 두 번째로 높은 신뢰도를 가진 것은 신호등입니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.435,
+    "total_time": 3.444
+  },
+  {
+    "image": "00211b17-ad3e206b.jpg",
+    "detections": [],
+    "analysis": "탐지된 객체가 없습니다. 정상 주행하세요.",
+    "yolo_time": 0.008,
+    "slm_time": 0.0,
+    "total_time": 0.008
+  },
+  {
+    "image": "00225f53-4200bde2.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.71,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.55,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.48,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.43,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.42,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.25,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 차량과 트럭이 감지되었습니다. 주변 환경을 철저히 살펴보며, 특히 우측과 좌측에서 차량이 많은 지역에서는 더욱 주의해야 합니다. 트럭은 큰 차량이므로 주의하되, 차량보다는 주로 트럭을 대상으로 주행 계획을 세워야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.433,
+    "total_time": 3.442
+  },
+  {
+    "image": "00225f53-67614580.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.9,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.83,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.78,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.76,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.72,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.45,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.39,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.38,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 및 좌측에서 차량이 감지되었습니다. 우측에서는 사람과 차량이 동시에 감지되었습니다. 주변 환경을 철저히 살펴보며, 특히 우측에서 사람이 감지되면 즉시 차선을 변경하거나 차선을 변경하는 것을 고려해주세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.437,
+    "total_time": 3.446
+  },
+  {
+    "image": "00232de3-19eca24a.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.78,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.57,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.56,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.41,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.4,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "근거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 모두 같은 차량이 감지되었습니다. 이는 주로 교통체증이나 교차로에서 발생하는 현상입니다. 차량 간의 거리가 적은 만큼 주의해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.431,
+    "total_time": 3.44
+  },
+  {
+    "image": "0024b742-83709bd4.jpg",
+    "detections": [
+      {
+        "class": "traffic light",
+        "confidence": 0.53,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.47,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.43,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.41,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.36,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.31,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.29,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.29,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.28,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 및 좌측에서 신호등이 감지되었습니다. 전방 신호등은 아직 활성화되지 않았습니다. 주변 차량과의 거리를 유지하면서 주의하십시오.",
+    "yolo_time": 0.009,
+    "slm_time": 3.446,
+    "total_time": 3.455
+  },
+  {
+    "image": "0024b742-acbed4fb.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.92,
+        "direction": "중앙",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.91,
+        "direction": "좌측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.42,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.25,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 그리고 중앙에서 모두 같은 차량이 감지되었습니다. 이는 매우 안정적인 운행을 위한 조건이 됩니다. 그러나 중앙에서의 차량 감지 신뢰도가 낮은 것으로 나타났습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.443,
+    "total_time": 3.452
+  },
+  {
+    "image": "002685b6-856c17f7.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.86,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.85,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.65,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.57,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.42,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.39,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.31,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.31,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.28,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 차량, 교차로에서의 차량, 그리고 교차로에서의 차량은 모두 감지되었습니다. 또한 교차로에서의 차량과 교차로에서의 차량 사이에는 충분한 안전 거리가 있습니다. 그러나 교차로에서의 차량과의 거리는 매우 짧습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.439,
+    "total_time": 3.448
+  },
+  {
+    "image": "00268999-0b20ef00.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.57,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.43,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.42,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "어떤 차량이 가장 높은 신뢰도로 감지되었으며, 이는 주변 환경에서 가장 큰 위험 요소입니다. 따라서 주행 중에는 이 차량과의 거리를 유지하면서 주의해야 합니다. 또한, 다른 차량과의 경계를 유지하는 것이 중요합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.449,
+    "total_time": 3.458
+  },
+  {
+    "image": "00268999-9f6d5823.jpg",
+    "detections": [
+      {
+        "class": "person",
+        "confidence": 0.8,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.64,
+        "direction": "중앙",
+        "distance": "근거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.61,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "- 전방에서 사람을 발견했습니다. - 중앙에서 차량이 있습니다. - 우측에서 또 다른 사람이 있습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.447,
+    "total_time": 3.456
+  },
+  {
+    "image": "00268999-a4b8e39d.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.8,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "우측 원거리에서 차량이 감지되었습니다. 이 차량과의 거리를 유지하면서 주의하십시오. 물론, 이는 일반적인 예시일 뿐이며 실제 상황에서는 더욱 복잡한 조건들이 있을 수 있습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.443,
+    "total_time": 3.452
+  },
+  {
+    "image": "00268999-cb063914.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.76,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.74,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.55,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "중앙",
+        "distance": "근거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.39,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.31,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.28,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 모두 같은 차량이 감지되었습니다. 이는 주로 도로 한쪽에 집중적으로 차량이 많다는 것을 나타냅니다. 주행 중에는 이러한 차량들을 주의 깊게 관찰하되, 주변 환경을 체크하면서 주행하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.452,
+    "total_time": 3.46
+  },
+  {
+    "image": "002827ad-8748e2fb.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.83,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.36,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "- 분석 결과는 무엇인가요? 어떤 조치를 취해야 하나요? - 분석 결과는 무엇인가요? 어떤 조치를 취해야 하나요?  답변은 한국어로 작성되어야 합니다. 답변은 단순 명령문이나 지시사항으로 이루어져야 하며, \"즉시\"나 \"마지막으로\" 같은 시간적 연관성 있는 표현은 사용하지 않습니다. 또한, 이 문제에서는 특정 모델 또는 기술에 대한 정보를 요구하는 것은 아닙니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.442,
+    "total_time": 3.451
+  },
+  {
+    "image": "0028cbbf-92f30408.jpg",
+    "detections": [
+      {
+        "class": "truck",
+        "confidence": 0.87,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.82,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.8,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.68,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.66,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 트럭과 좌측 차량, 그리고 중앙 차량이 감지되었습니다. 트럭과의 거리가 가장 가깝습니다. 트럭과의 충돌 위험성이 높으므로 즉시 감속하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.444,
+    "total_time": 3.453
+  },
+  {
+    "image": "002ab96a-a96704f9.jpg",
+    "detections": [
+      {
+        "class": "bus",
+        "confidence": 0.95,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.65,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.63,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.46,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.44,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.36,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 및 후방에서 버스, 차량이 감지되었습니다. 버스와 차량 모두의 신뢰도가 높습니다. 특히 중앙에서의 차량은 매우 낮은 신뢰도로 보입니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.438,
+    "total_time": 3.447
+  },
+  {
+    "image": "002ab96a-ea678692.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.91,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.82,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.73,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.73,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.61,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.33,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.33,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.25,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 및 좌측에서 두 차량이 감지되었습니다. 이는 주로 교차로나 도로변에 위치한 것으로 추정됩니다. 주행 중에는 두 차량 사이의 거리 유지와 주의를 기울여 주행하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.422,
+    "total_time": 3.431
+  },
+  {
+    "image": "002b485a-3f6603f2.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.8,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.79,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.6,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.6,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.56,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 차량이 감지되었습니다. 주변 환경을 철저히 살펴보며, 특히 좌측과 우측에서의 차량 감지가 높은 신뢰도로 인해 주의해야 합니다. 주행 중에는 차량 간의 거리 관계를 지켜야 하며, 필요하다면 차선 변경을 고려하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.428,
+    "total_time": 3.437
+  },
+  {
+    "image": "002b485a-d1301c7c.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.83,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.76,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.64,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.62,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.47,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.32,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 외부 차량들이 감지되었습니다. 주변 환경에서의 차량 수가 많아서 주의해야 합니다. 특히 우측과 좌측에서의 차량이 많은 것을 주의 깊게 고려하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.432,
+    "total_time": 3.441
+  },
+  {
+    "image": "002b562f-e0ac84fe.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.55,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.42,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.36,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "어떤 정보를 제공해야 할까요? 이 상황에서 가장 중요한 것은 무엇인가요?   답변:  우측 원거리에는 작은 차량이 감지되었습니다. 이는 주로 소형차량이나 오토바이 등이 포함될 수 있습니다. 중앙 원거리에서는 두 차량이 동시에 감지되었습니다.",
+    "yolo_time": 0.008,
+    "slm_time": 3.424,
+    "total_time": 3.432
+  },
+  {
+    "image": "002cd38e-c7defded.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.86,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.5,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.29,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 중앙 및 우측에서 다양한 탐지 결과가 있습니다. 우선 중앙에서 두 번째로 높은 신뢰도0. 86를 가진 'car'를 주의해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.424,
+    "total_time": 3.433
+  },
+  {
+    "image": "002cd38e-ebe888e1.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.78,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.67,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.5,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.33,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 후방 및 외부 차량들이 감지되었습니다. 주변 환경에서의 차량 수가 많으므로 주의해야 합니다. 특히 우측과 중앙에서 감지된 차량은 주의해야 하며, 이들의 위치와 속도를 조심스럽게 관찰하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.416,
+    "total_time": 3.425
+  },
+  {
+    "image": "002d290d-01969e7d.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.9,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.9,
+        "direction": "좌측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.79,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.69,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.68,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.55,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.49,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.42,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.25,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측, 그리고 중앙에서 차량이 감지되었습니다. 또한, 중앙에는 두 번째로 높은 신뢰도를 가진 신호등이 있습니다. 우측에는 두 명의 사람이 감지되었습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.406,
+    "total_time": 3.414
+  },
+  {
+    "image": "002d290d-89d1aea8.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "좌측",
+        "distance": "중거리"
+      },
+      {
+        "class": "bus",
+        "confidence": 0.82,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.68,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.67,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.38,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.32,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.28,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.27,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 차량, 버스, 트럭, 그리고 인원들이 감지되었습니다. 특히, 인원들이 감지되어 매우 위험합니다. 인원들은 주로 좌측에서 나타나고 있으며, 중앙에서는 사람 두 명이 동시에 나타났습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.431,
+    "total_time": 3.44
+  },
+  {
+    "image": "002d290d-89f4e5c0.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 차량과 좌측 차량이 감지되었습니다. 현재 위치에서 차량과의 거리가 짧아서, 차량이 느려질 경우 차로 인해 발생할 수 있는 사고 위험성을 고려해야 합니다. 따라서 차량을 최대한 빨리 이동시키는 것이 중요합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 2.974,
+    "total_time": 2.982
+  },
+  {
+    "image": "002d290d-90f2bab2.jpg",
+    "detections": [
+      {
+        "class": "truck",
+        "confidence": 0.8,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.79,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.78,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.54,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.47,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.38,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 그리고 우측에서 트럭과 차량이 감지되었습니다. 트럭은 우측에서 가장 높은 신뢰도로 가장 확실한 감지였습니다. 하지만 차량들은 모두 중앙에서 감지되었으며, 특히 좌측에서 두 차례나 감지되었습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.413,
+    "total_time": 3.422
+  },
+  {
+    "image": "002d290d-f9108a13.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.79,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.52,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.51,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.47,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.42,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.36,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.26,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 후방, 그리고 교차로에서의 차량 및 교통표시자들의 감지 결과를 바탕으로, 주행 경로를 결정해야 합니다. 특히, 교통표시자들이 표시하는 신호를 따르는 것이 중요합니다. 또한, 주변 환경에 대한 조사와 적절한 대응을 통해 안전하게 이동할 수 있도록 해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.413,
+    "total_time": 3.422
+  },
+  {
+    "image": "002d290d-fa2a8964.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.9,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.4,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.33,
+        "direction": "중앙",
+        "distance": "근거리"
+      }
+    ],
+    "analysis": "전방 차량과 중앙 차량이 감지되었습니다. 중앙 차량과의 거리를 유지하며, 전방 차량과의 거리에서 속도를 조절하세요. 주의하되, 중앙 차량과의 거리를 유지하면서 주행하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.42,
+    "total_time": 3.43
+  },
+  {
+    "image": "002e6895-442e6bc1.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.84,
+        "direction": "좌측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.84,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.78,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.72,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.65,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.47,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.46,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.32,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "어떤 차량이나 트럭이 감지되었는지, 각각의 신뢰도는 얼마나 되며, 그들의 위치 정보를 기반으로 어떻게 행동해야 할까요?   답변:  우선, 가장 신뢰도가 높은 차량은 \"트럭\"이며, 이 차량은 우측에서 가장 가까운 위치에 감지되었습니다. 따라서, 이 트럭과의 거리를 유지하면서 주의 깊게 주행해야 합니다. 다음으로 신뢰도가 높은 차량은 \"차량\"이며, 이 차량들은 모두 우측에서 감지되어 있습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.411,
+    "total_time": 3.42
+  },
+  {
+    "image": "002f8552-0cdd55c6.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.88,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.88,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.55,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.55,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.52,
+        "direction": "중앙",
+        "distance": "중거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.51,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.45,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.44,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.4,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.4,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.37,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.35,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.34,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.31,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "person",
+        "confidence": 0.28,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 후방, 외부에서의 차량 및 사람들의 감지가 이루어졌습니다. 특히 우측과 중앙에서 차량이 많은 것으로 나타났으며, 좌측에서는 사람이 많이 감지되었습니다. 신호등은 전방에서 감지되었지만, 그 외에는 대부분의 차량이나 사람들은 주변 환경에 위치해 있습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.411,
+    "total_time": 3.42
+  },
+  {
+    "image": "0030f434-3eb4a3a9.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.85,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.82,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.81,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.79,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.73,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.6,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.58,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.47,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.41,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.33,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.31,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 차량이 감지되었습니다. 또한, 중앙에는 두 번째로 높은 신뢰도를 가진 신호등이 있습니다. 차량과의 거리를 유지하면서 주의하십시오.",
+    "yolo_time": 0.009,
+    "slm_time": 3.403,
+    "total_time": 3.412
+  },
+  {
+    "image": "00313a01-62156032.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.65,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.46,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.44,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "어떤 차량이 가장 높은 신뢰도로 감지되었으며, 그 다음으로 높은 신뢰도는 중앙에서 발견된 차량입니다. 이 정보를 바탕으로 주행 계획을 수립하세요. 주의해야 할 사항은 무엇인가요?   답변을 위해 필요한 추가 정보는 없으니, 주의해야 할 사항은 다음과 같습니다:  - 주행 경로:    - 우측 방향에서 시작하여 중앙 방향으로 이동   - 중앙 방향에서 다시 우측 방향으로 이동  - 주행 속도:    - 첫 번째 단계에서는 최대 30.",
+    "yolo_time": 0.009,
+    "slm_time": 3.413,
+    "total_time": 3.422
+  },
+  {
+    "image": "00313a01-725ddf3a.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "근거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방에서 두 차량이 감지되었습니다. 이들은 모두 매우 높은 신뢰도로 인해, 주행 중에는 차량 간의 거리 유지와 동시에 주의해야 합니다. 특히, 차량 간의 거리를 유지하는 것이 중요합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.398,
+    "total_time": 3.407
+  },
+  {
+    "image": "00313a01-97de1f42.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.76,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.65,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "- 좌측 원거리:    - 감지된 객체는 차량입니다. - 신뢰도는 0. 76로 높습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.41,
+    "total_time": 3.419
+  },
+  {
+    "image": "00313a01-b53a2998.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.84,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.79,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.67,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.47,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.46,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.42,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.42,
+        "direction": "중앙",
+        "distance": "근거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.41,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.33,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.31,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 모두 같은 차량이 감지되었습니다. 이는 주로 교차로나 도로변에서 발생하는 현상입니다. 주행 중에는 차량 간의 거리와 속도를 조절하여 안전한 운행을 유지해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.405,
+    "total_time": 3.414
+  },
+  {
+    "image": "00322f82-286ab9b3.jpg",
+    "detections": [
+      {
+        "class": "bus",
+        "confidence": 0.56,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.25,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방에서 bus가 감지되었습니다. 이는 매우 위험한 상황입니다. 즉시 차선을 변경하거나 교통사고를 피하기 위해 차선을 변경하세요.",
+    "yolo_time": 0.008,
+    "slm_time": 3.404,
+    "total_time": 3.413
+  },
+  {
+    "image": "0032419c-7d20b300.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "truck",
+        "confidence": 0.44,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방에서 차량과 트럭이 감지되었습니다. 트럭과의 거리가 짧아서 주의해야 합니다. 차량과의 거리는 높은 신뢰도로 보아 안전합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.419,
+    "total_time": 3.428
+  },
+  {
+    "image": "0033b19f-65613f7e.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.82,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.73,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.66,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.63,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.42,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.37,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.33,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 차량과 좌측 차량이 감지되었습니다. 전방 차량과의 거리를 유지하면서 주의하십시오. 좌측 차량과의 거리를 유지하며 주의하십시오.",
+    "yolo_time": 0.009,
+    "slm_time": 3.41,
+    "total_time": 3.419
+  },
+  {
+    "image": "0033b19f-7f07efac.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.82,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.7,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.51,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.45,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.36,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.32,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.25,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 중앙 및 좌측에서 차량이 감지되었습니다. 주변 환경을 철저히 살펴보며 차량과의 거리를 유지하세요. 특히 좌측에서 감지된 차량은 가장 높은 신뢰도로, 이는 주의해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.406,
+    "total_time": 3.415
+  },
+  {
+    "image": "0034a363-24f318c4.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.81,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.74,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.53,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.35,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "중거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 그리고 중앙에서 모두 같은 차량이 감지되었습니다. 이는 주로 동일한 경로를 따라가는 차량임을 의미합니다. 현재 위치에서 차량이 계속 지나갈 것으로 예상됩니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.405,
+    "total_time": 3.414
+  },
+  {
+    "image": "0035afff-3295dbd6.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.82,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.71,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "bus",
+        "confidence": 0.6,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.58,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 차량과 버스가 감지되었습니다. 주변 환경에서 차량과 버스 모두 감지되어 있어 주의해야 합니다. 특히, 우측에서 감지된 두 차량은 매우 가까워서 주의해야 하며, 전방 차량과의 거리가 약 10m 이상인 것으로 추정됩니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.408,
+    "total_time": 3.417
+  },
+  {
+    "image": "0035afff-434368a1.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.28,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 모두 차량이 감지되었습니다. 이는 주로 교통 상황을 나타냅니다. 주행 중에는 차량들 사이의 거리 유지와 주의를 기울여야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.395,
+    "total_time": 3.404
+  },
+  {
+    "image": "0035afff-47378fa3.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.57,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.5,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.48,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.46,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측, 그리고 중앙에서 모두 같은 차량이 감지되었습니다. 이는 주로 같은 도로에서 운행하는 차량일 가능성이 높습니다. 현재 위치에서 차량들이 서로 교차하거나 경로를 변경하려고 할 수 있습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.397,
+    "total_time": 3.406
+  },
+  {
+    "image": "0035afff-572b2d4e.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.85,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.57,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.56,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.51,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.31,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "어떤 차량이 가장 높은 신뢰도로 감지되었으며, 이는 전방에서 발견된 차량입니다. 다른 차량들은 모두 경계를 지키고 주의해야 합니다. 주변의 모든 차량들이 동일한 신뢰도로 감지되었다면, 주행 중단을 고려해보세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.408,
+    "total_time": 3.416
+  },
+  {
+    "image": "0035afff-bd191d6a.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.82,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.6,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.55,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.53,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.53,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.33,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.32,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.31,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 후방 및 외부에서의 차량 감지가 높습니다. 주변 환경을 철저히 관찰하고, 차량 간의 거리와 속도를 조절하여 안전한 운행을 유지하세요. 특히, 중앙에서의 차량 감지가 높은 만큼 주의해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.44,
+    "total_time": 3.449
+  },
+  {
+    "image": "00378858-c5f802ac.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.8,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.72,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.47,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "중앙",
+        "distance": "근거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.29,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "어떤 차량이나 신호등이 감지되었는지 알려주세요. 그리고 각각의 감지된 객체들이 어떤 행동을 취해야 하는지를 설명해주세요. 감지된 객체들의 신뢰도는 그들에 대한 확신의 정도를 나타냅니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.418,
+    "total_time": 3.427
+  },
+  {
+    "image": "00390995-49d9a01e.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.93,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.88,
         "direction": "좌측",
         "distance": "원거리"
       },
@@ -22,228 +4178,55 @@
       },
       {
         "class": "car",
-        "confidence": 0.56,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "truck",
-        "confidence": 0.53,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.5,
-        "direction": "우측",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.47,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "truck",
-        "confidence": 0.27,
-        "direction": "중앙",
-        "distance": "원거리"
-      }
-    ],
-    "analysis": "전방, 중앙 및 우측에서 차량과 트럭이 감지되었습니다. 주변 환경에 대한 이해를 바탕으로 적절한 운전 조언을 제공해야 합니다. 답변:  주변 환경은 다음과 같습니다:  1.",
-    "yolo_time": 0.616,
-    "slm_time": 3.664,
-    "total_time": 4.28
-  },
-  {
-    "image": "0199e7fc-0b6d1a35.jpg",
-    "detections": [
-      {
-        "class": "car",
-        "confidence": 0.86,
-        "direction": "우측",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.83,
+        "confidence": 0.54,
         "direction": "좌측",
         "distance": "원거리"
       },
       {
         "class": "car",
-        "confidence": 0.71,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.68,
-        "direction": "좌측",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.66,
-        "direction": "좌측",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.53,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.47,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.35,
-        "direction": "중앙",
-        "distance": "원거리"
-      }
-    ],
-    "analysis": "전방, 좌측, 그리고 중앙에서 모두 같은 차량이 감지되었습니다. 이는 주로 같은 도로 내부에서의 교차로나 지점에서 발생하는 것으로 추정됩니다. 차량 간의 충돌 위험성이 높으므로 주의해야 합니다.",
-    "yolo_time": 0.009,
-    "slm_time": 3.077,
-    "total_time": 3.087
-  },
-  {
-    "image": "6e1ae4ea-bdba6ffc.jpg",
-    "detections": [
-      {
-        "class": "car",
-        "confidence": 0.78,
-        "direction": "우측",
-        "distance": "중거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.57,
-        "direction": "우측",
-        "distance": "근거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.51,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.39,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.29,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.26,
-        "direction": "좌측",
-        "distance": "원거리"
-      }
-    ],
-    "analysis": "전방, 좌측, 그리고 우측에서 모두 차량이 감지되었습니다. 차량과의 거리를 유지하면서 주의 깊게 주행하세요. 특히 우측에서의 차량은 주의해야 합니다.",
-    "yolo_time": 0.009,
-    "slm_time": 3.365,
-    "total_time": 3.373
-  },
-  {
-    "image": "2130bfc4-d1c6bcd0.jpg",
-    "detections": [],
-    "analysis": "탐지된 객체가 없습니다. 정상 주행하세요.",
-    "yolo_time": 0.008,
-    "slm_time": 0.0,
-    "total_time": 0.008
-  },
-  {
-    "image": "6b9077b7-e6a07c88.jpg",
-    "detections": [
-      {
-        "class": "car",
-        "confidence": 0.86,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.79,
-        "direction": "우측",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.73,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "bicycle",
-        "confidence": 0.73,
-        "direction": "좌측",
-        "distance": "원거리"
-      },
-      {
-        "class": "person",
-        "confidence": 0.7,
-        "direction": "우측",
-        "distance": "원거리"
-      },
-      {
-        "class": "car",
-        "confidence": 0.65,
-        "direction": "중앙",
-        "distance": "원거리"
-      },
-      {
-        "class": "person",
-        "confidence": 0.55,
-        "direction": "좌측",
-        "distance": "원거리"
-      },
-      {
-        "class": "person",
-        "confidence": 0.51,
+        "confidence": 0.54,
         "direction": "좌측",
         "distance": "원거리"
       },
       {
         "class": "car",
         "confidence": 0.49,
-        "direction": "중앙",
+        "direction": "좌측",
         "distance": "원거리"
       },
       {
         "class": "car",
-        "confidence": 0.49,
-        "direction": "중앙",
+        "confidence": 0.47,
+        "direction": "좌측",
         "distance": "원거리"
       },
       {
-        "class": "traffic light",
+        "class": "car",
         "confidence": 0.44,
         "direction": "좌측",
         "distance": "원거리"
       },
       {
-        "class": "motorcycle",
-        "confidence": 0.43,
+        "class": "car",
+        "confidence": 0.44,
         "direction": "좌측",
-        "distance": "중거리"
+        "distance": "원거리"
       },
       {
-        "class": "person",
-        "confidence": 0.42,
+        "class": "car",
+        "confidence": 0.44,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.43,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.43,
         "direction": "좌측",
         "distance": "원거리"
       },
@@ -255,38 +4238,569 @@
       },
       {
         "class": "car",
-        "confidence": 0.37,
+        "confidence": 0.34,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측에서 차량이 감지되었습니다. 주변 환경이 매우 안정적이지만, 특히 좌측에서의 차량 감지 수준은 낮습니다. 주행 중에도 이차선을 따라 주의 깊게 주행하시고, 필요하다면 차로를 변경하거나 차선을 변경하는 것을 고려해보세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.416,
+    "total_time": 3.425
+  },
+  {
+    "image": "00391a82-8be5b76d.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
         "direction": "중앙",
         "distance": "원거리"
       },
       {
-        "class": "person",
-        "confidence": 0.37,
+        "class": "car",
+        "confidence": 0.76,
         "direction": "좌측",
         "distance": "원거리"
       },
       {
+        "class": "car",
+        "confidence": 0.69,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.29,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방에서 차량이 감지되었으며, 이는 주로 교차로나 도로변에 위치한 것으로 추정됩니다. 또한, 좌측에서도 두 차량이 감지되어 있습니다. 그러나 좌측의 두 차량은 신뢰도가 낮아서 정확한 판단이 어렵습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.433,
+    "total_time": 3.442
+  },
+  {
+    "image": "00391a82-d1428e56.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.88,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.87,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.38,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 차량과 좌측 차량이 감지되었습니다. 전방 차량과의 거리를 유지하면서, 좌측 차량과의 충돌 위험을 최소화하기 위해 주의해야 합니다. 현재 위치에서 차량들을 둘러보며, 가능한 경우 차선 변경 또는 차로 변경을 고려해 보세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.432,
+    "total_time": 3.441
+  },
+  {
+    "image": "003baca5-70c87fc6.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.74,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.67,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "- 전방 차량은 감지되었으나, 그들의 신뢰도는 낮습니다. - 좌측과 우측 차량은 모두 감지되었으며, 각각의 신뢰도가 높습니다. - 중앙 차량은 감지되지 않았습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.423,
+    "total_time": 3.431
+  },
+  {
+    "image": "003baca5-aab2e274.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.68,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "- 어떤 정보를 제공해야 하는지 - 어떻게 행동해야 하는지 예시로 설명해주세요. 물론, 이는 실제 운전 시나리오에서의 예상적인 결과일 수 있습니다. 그러나 AI의 역할은 항상 최적화되고 개선되는 것이며, 이러한 예시들은 그 과정에서 도움이 될 것입니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.449,
+    "total_time": 3.458
+  },
+  {
+    "image": "003baca5-ad660439.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.71,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.56,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.39,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 왼쪽, 오른쪽에서 모두 차량이 감지되었습니다. 차량들 사이의 거리가 약간 다르지만, 전방 차량과의 거리는 가장 가깝습니다. 이는 주행 중인 차량들이 서로 겹치거나 교차하는 경로를 따라가는 것을 의미합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.446,
+    "total_time": 3.454
+  },
+  {
+    "image": "003baca5-d6cd84e5.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.91,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.84,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.83,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.61,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "- 전방 차량은 매우 높은 신뢰도로, 즉시 감속하고 차량과의 거리를 유지하세요. - 좌측 차량은 중간 신뢰도로, 차량과의 거리를 유지하면서 주의하십시오. - 중앙 차량은 낮은 신뢰도로, 주행 중에는 차량과의 거리를 유지하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.444,
+    "total_time": 3.453
+  },
+  {
+    "image": "003c4a61-52588960.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.8,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.62,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.27,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "어떤 정보를 기반으로 하여 이 결과가 생성되었는지 설명해주세요. 답변:  우측 원거리에는 차량이 감지되었습니다. 중앙 원거리에서는 두 차량이 동시에 감지되었습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.438,
+    "total_time": 3.447
+  },
+  {
+    "image": "003e23ee-07d32feb.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.84,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.77,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.51,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "bus",
+        "confidence": 0.46,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "bus",
+        "confidence": 0.4,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
         "class": "person",
+        "confidence": 0.31,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 후방 및 외부에서의 차량과 버스가 감지되었습니다. 주변 환경을 철저히 살펴보며, 특히 우측에서의 차량과 버스는 주의해야 합니다. 이들의 위치와 속도를 고려하여 적절한 속도로 주행하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.439,
+    "total_time": 3.449
+  },
+  {
+    "image": "003e23ee-67d25f19.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.88,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.68,
+        "direction": "좌측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.35,
+        "direction": "중앙",
+        "distance": "중거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 중앙에서 모두 차량이 감지되었습니다. 현재 위치에서 가장 가까운 차량은 우측에 있습니다. 이 차량과의 거리가 매우 짧습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.443,
+    "total_time": 3.451
+  },
+  {
+    "image": "004071a4-049b7b85.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.84,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.75,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.69,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.55,
+        "direction": "우측",
+        "distance": "중거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.5,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.45,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.43,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.39,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "fire hydrant",
+        "confidence": 0.34,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.3,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.27,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "motorcycle",
+        "confidence": 0.26,
+        "direction": "우측",
+        "distance": "중거리"
+      }
+    ],
+    "analysis": "전방, 후방 및 외부에서의 차량 감지가 높습니다. 특히 중앙에서의 차량 감지는 매우 높습니다. 또한, 우측에서는 차량과 자전거가 동시에 감지되었습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.443,
+    "total_time": 3.452
+  },
+  {
+    "image": "004071a4-4e8a363a.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.89,
+        "direction": "우측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.79,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.74,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.72,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.65,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.63,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.34,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.29,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 그리고 중앙에서 모두 같은 차량이 감지되었습니다. 이는 주로 같은 도로에서 운행하는 차량들이 서로 교차하는 경향이 있습니다. 따라서 주의 깊게 주행하시고, 차량 간의 거리를 유지하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.435,
+    "total_time": 3.444
+  },
+  {
+    "image": "004071a4-a45d905f.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.83,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.8,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.49,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.46,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.44,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
         "confidence": 0.36,
-        "direction": "우측",
+        "direction": "좌측",
         "distance": "원거리"
       },
       {
-        "class": "person",
-        "confidence": 0.31,
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "우측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방, 좌측, 우측에서 모두 같은 차량이 감지되었습니다. 이 차량은 매우 높은 신뢰도로 인해 확실한 정보입니다. 차량 간의 거리와 차량의 속도를 고려하여 다음 단계에 대한 결정을 내릴 수 있습니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.439,
+    "total_time": 3.448
+  },
+  {
+    "image": "004071a4-ef4bf541.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.87,
         "direction": "좌측",
         "distance": "원거리"
       },
       {
         "class": "person",
-        "confidence": 0.31,
-        "direction": "우측",
+        "confidence": 0.46,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.45,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.44,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.39,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.38,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.32,
+        "direction": "중앙",
+        "distance": "근거리"
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.27,
+        "direction": "중앙",
         "distance": "원거리"
       },
       {
         "class": "traffic light",
         "confidence": 0.26,
-        "direction": "우측",
+        "direction": "좌측",
         "distance": "원거리"
       },
       {
@@ -296,9 +4810,69 @@
         "distance": "원거리"
       }
     ],
-    "analysis": "전방에는 차량, 자전거, 사람 등 다양한 탐지 결과가 있습니다. 특히, 전방에서 차량이 두 번 감지되었으며, 이는 주로 교통 상황을 나타냅니다. 또한, 차량은 신호등과 같은 특정 위치에서 감지되며, 이는 교통 조건을 반영합니다.",
+    "analysis": "전방, 좌측 및 중앙에서 다양한 탐지를 감지했습니다. 우선, 모든 탐지된 객체는 신호등에 대한 감지였습니다. 이는 교통사고 위험을 초래할 수 있는 상황을 나타냅니다.",
     "yolo_time": 0.009,
-    "slm_time": 3.375,
-    "total_time": 3.384
+    "slm_time": 3.438,
+    "total_time": 3.447
+  },
+  {
+    "image": "00417c23-220bbc98.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.92,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.84,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.6,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.26,
+        "direction": "좌측",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "전방 및 좌측에서 차량이 감지되었습니다. 주변 환경을 철저히 관찰하고, 차량 간의 거리와 차량의 속도를 조절하여 안전한 운행을 유지하세요. 특히 좌측에서 감지된 차량은 주의해야 합니다.",
+    "yolo_time": 0.009,
+    "slm_time": 3.445,
+    "total_time": 3.454
+  },
+  {
+    "image": "00423717-0ef3c8dc.jpg",
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.9,
+        "direction": "좌측",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.82,
+        "direction": "중앙",
+        "distance": "원거리"
+      },
+      {
+        "class": "car",
+        "confidence": 0.27,
+        "direction": "중앙",
+        "distance": "원거리"
+      }
+    ],
+    "analysis": "- 좌측 원거리: 차량이 감지되었습니다. 이 차량과의 거리가 매우 가깝습니다. 즉시 차량과의 간격을 확보하세요.",
+    "yolo_time": 0.009,
+    "slm_time": 3.422,
+    "total_time": 3.431
   }
 ]

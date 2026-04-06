@@ -136,8 +136,15 @@ def analyze_scene(detections):
 
     return clean_response, slm_time
 
-# 이미지 5장 테스트
-image_files = [f for f in os.listdir(IMAGE_DIR) if f.endswith(".jpg")][:5]
+# GPU 워밍업
+print("GPU 워밍업 중...")
+dummy_img = cv2.imread(os.path.join(IMAGE_DIR, os.listdir(IMAGE_DIR)[0]))
+yolo_model(dummy_img, verbose=False)
+depth_model.infer_image(cv2.cvtColor(dummy_img, cv2.COLOR_BGR2RGB))
+print("워밍업 완료!")
+
+# 이미지 테스트
+image_files = sorted([f for f in os.listdir(IMAGE_DIR) if f.endswith(".jpg")])[:100]
 results_list = []
 
 for img_file in image_files:
